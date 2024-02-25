@@ -51,7 +51,7 @@ a {
 }
 
 .links:hover {
-    color: #ffc107;
+    color: #fafaf9;
 }
 
 /* Hero section styles */
@@ -91,7 +91,11 @@ a {
 }
 
 .common-btn:hover {
-    background-color: #ff9800;
+    background-color: #fdfcfb;
+}
+.btn.common-btn:hover
+{
+  color: black;
 }
 
 .ghost-btn {
