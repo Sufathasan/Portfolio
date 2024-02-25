@@ -1,0 +1,267 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: red;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header styles */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo-heading {
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-list-items {
+    margin-right: 20px;
+}
+
+.links {
+    color: #fff;
+    font-size: 18px;
+}
+
+.links:hover {
+    color: #ffc107;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: linear-gradient(to right, #3498db, #8e44ad);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.my-heading {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.intro-buttons {
+    margin-top: 20px;
+}
+
+.common-btn {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.common-btn:hover {
+    background-color: #ff9800;
+}
+
+.ghost-btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.ghost-btn:hover {
+    background-color: #fff;
+    color: #3498db;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my-row {
+    display: flex;
+    justify-content: center;
+}
+
+.my-col {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin: 15px;
+}
+
+.port-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.port-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.port-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.blue-text {
+    color: #3498db;
+}
+
+/* About section styles */
+.about {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 20px;
+
+}
+
+.about-image {
+    flex: 20%;
+    max-width: 200%;
+}
+
+/* Services section styles */
+.services {
+    padding: 50px 0;
+}
+
+.services-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 0;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form-container {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.contact-form {
+    width: 90%;
+}
+
+.form-controls {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-btn {
+    background-color: #ffc107;
+    color: #ffffff;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #ff9800;
+}
+
+.contact-details {
+    flex:0 0 40%;
+    max-width: 40%;
+}
+
+.details {
+    margin-bottom: 1px;
+} 
+
+.contact-heading {
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+.contact-text {
+    font-size: 18px;
+    
+}
